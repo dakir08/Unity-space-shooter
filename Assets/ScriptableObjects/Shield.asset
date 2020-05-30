@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a1c75ff3a002464fa34d245753f3ef4, type: 3}
+  m_Name: Shield
+  m_EditorClassIdentifier: 
+  powerUpId: 2
+  powerUpPrefab: {fileID: 7919019063600699989, guid: cfc3fd9447a9fac49a2e210cd2cdc3d6,
+    type: 3}
+  powerUpDuration: 5
+  powerUpFallSpeed: 1
+  spawnIntervalMin: 3
+  spawnIntervalMax: 10
+  audio: {fileID: 8300000, guid: 5ee343246919d2b4bba63ae629e95494, type: 3}

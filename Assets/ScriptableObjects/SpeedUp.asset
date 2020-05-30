@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a1c75ff3a002464fa34d245753f3ef4, type: 3}
+  m_Name: SpeedUp
+  m_EditorClassIdentifier: 
+  powerUpId: 1
+  powerUpPrefab: {fileID: 6027894139379175718, guid: 2b20bf9fb4b78ac4e87a5e74d699abe6,
+    type: 3}
+  powerUpDuration: 10
+  powerUpFallSpeed: 1.5
+  spawnIntervalMin: 3
+  spawnIntervalMax: 10
+  audio: {fileID: 8300000, guid: 5ee343246919d2b4bba63ae629e95494, type: 3}
